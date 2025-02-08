@@ -1,0 +1,62 @@
+@keyframes color-change
+  0%
+    --main-color: #2B8AE0
+  20%
+    --main-color: #E64768
+  40%
+    --main-color: #4766E6
+  60%
+    --main-color: #b70744
+  80%
+    --main-color: #008726
+  100%
+    --main-color: #2a3076
+  
+\:root
+  --main-color: red
+
+body
+  position: relative
+  animation: color-change 15s infinite
+  padding-top: calc(var(--grid-gutter) * 0.5)
+  &::before
+    content: ""
+    position: absolute
+    inset: 0
+    display: block
+    z-index: 2
+    border: calc(var(--grid-gutter) * 0.5) solid var(--main-color)
+    transition: border-color 0.2s
+    pointer-events: none
+
+header#document-header 
+  display: none !important
+
+
+.block-call_to_action
+  --h2-size: #{pxToRem(26)}
+  --cta-background-color: var(--main-color)
+  transition: background 0.2s
+
+footer#document-footer
+  a[target="_blank"]
+    &::after
+      display: none
+
+
+footer#document-footer .container
+  justify-content: center
+  padding-bottom: 1rem
+
+footer#document-footer .container + .container
+  padding-top: 1rem
+
+footer .footer-logos
+  display: flex
+  align-items: center
+  .logos
+      ul
+        display: flex
+        align-items: center
+        li
+          margin: 0 20px
