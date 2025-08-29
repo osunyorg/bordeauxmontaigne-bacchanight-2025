@@ -1,7 +1,10 @@
 ---
 name: too-well-stolen.jpeg
 size: 369876
-format: square
+width: 1440
+height: 1920
+ratio: 0.75
+format: portrait
 url: https://bordeauxmontaigne.osuny.org/media/eyJfcmFpbHMiOnsiZGF0YSI6IjUwZDcyMGYxLTlhN2EtNDYzMC1iMDBlLTI0NDZhNDY1YjMzYiIsInB1ciI6ImJsb2JfaWQifX0=--c424f8b79399215bc36305070ae0a5a30d6b0391/too-well-stolen.jpeg
 direct_url: https://osuny.s3.fr-par.scw.cloud/zkt45zfbvob78ycv5mheoay7si10
 download_url: https://bordeauxmontaigne.osuny.org/media/download/eyJfcmFpbHMiOnsiZGF0YSI6IjUwZDcyMGYxLTlhN2EtNDYzMC1iMDBlLTI0NDZhNDY1YjMzYiIsInB1ciI6ImJsb2JfaWQifX0=--c424f8b79399215bc36305070ae0a5a30d6b0391

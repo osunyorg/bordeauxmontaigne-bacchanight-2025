@@ -1,7 +1,10 @@
 ---
 name: nuage.jpeg
 size: 99502
-format: square
+width: 608
+height: 839
+ratio: 0.7246722288438617
+format: portrait
 url: https://bordeauxmontaigne.osuny.org/media/eyJfcmFpbHMiOnsiZGF0YSI6IjI5Yzk0ZDA3LTFmMDItNGZmOC1hY2JlLThkZWY2OWEzZjU5MyIsInB1ciI6ImJsb2JfaWQifX0=--ec2daf242df3e3d50d63411ca83c69ecd90f48f6/nuage.jpeg
 direct_url: https://osuny.s3.fr-par.scw.cloud/a6kr4vb5i1px72dz467ympvtpwbv
 download_url: https://bordeauxmontaigne.osuny.org/media/download/eyJfcmFpbHMiOnsiZGF0YSI6IjI5Yzk0ZDA3LTFmMDItNGZmOC1hY2JlLThkZWY2OWEzZjU5MyIsInB1ciI6ImJsb2JfaWQifX0=--ec2daf242df3e3d50d63411ca83c69ecd90f48f6
